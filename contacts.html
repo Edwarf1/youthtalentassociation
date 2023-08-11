@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youth Talent Association - Contact Us</title>
+  <link rel="stylesheet" href="youngtalent.css">
+</head>
+<body>
+  <header>
+    <h1>Youth Talent Association</h1>
+    <nav>
+      <ul>
+        <li><a href="youngtalent.html">Home</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="videos.html">Videos</a></li>
+       
+      </ul>
+    </nav>
+  </header>
+
+  <section id="contact-form">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>
+        We value your feedback! If you have any questions, comments, or suggestions, please feel free to get in touch with us.
+      </p>
+      <form action="submit_feedback.php" method="post">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="feedback">Feedback:</label>
+          <textarea id="feedback" name="feedback" rows="5" required></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Youth Talent Association. All rights reserved.</p>
+  </footer>
+</body>
+</html>
